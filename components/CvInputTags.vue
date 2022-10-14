@@ -111,7 +111,7 @@
 <script lang="ts">
 import { computed, reactive, toRefs } from '@nuxtjs/composition-api';
 import Vue from 'vue';
-import { useCvState } from '~/data/useCvState';
+import { useCvState } from '../data/useCvState';
 export default Vue.extend({
   name: 'CvInputTags',
   props: {

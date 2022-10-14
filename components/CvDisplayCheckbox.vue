@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { useCvState } from '~/data/useCvState';
+import { useCvState } from '../data/useCvState';
 
 export default Vue.extend({
   props: {
