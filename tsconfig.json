@@ -24,10 +24,10 @@
       ]
     },
     "types": [
-      "@types/node",
       "@nuxt/types",
       "@nuxtjs/axios",
-      "@nuxtjs/i18n",
+      "@types/node",
+      "@nuxtjs/dayjs",
     ]
   },
   "exclude": [
