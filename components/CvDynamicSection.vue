@@ -113,7 +113,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import { CvEvent } from '../types/cvfy';
-import ExpansionPanel from '~/components/ExpansionPanel.vue';
+import ExpansionPanel from '../components/ExpansionPanel.vue';
 import { useCvState } from '../data/useCvState';
 export default Vue.extend({
   name: 'CvDynamicEntry',

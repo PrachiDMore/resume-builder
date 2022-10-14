@@ -7,8 +7,8 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import CvSettings from '@/components/CvSettings.vue';
-import CvPreview from '@/components/CvPreview.vue';
+import CvSettings from '../components/CvSettings.vue';
+import CvPreview from '../components/CvPreview.vue';
 
 const CVFY_IMAGE = 'https://cvfy.xyz/CvFy-no-border.png';
 

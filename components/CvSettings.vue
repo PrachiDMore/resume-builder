@@ -381,10 +381,10 @@ import {
   useContext,
   watch,
 } from '@nuxtjs/composition-api';
-import CvDynamicSection from '~/components/CvDynamicSection.vue';
-import CvDisplayCheckbox from '~/components/CvDisplayCheckbox.vue';
-import CvInputTags from '~/components/CvInputTags.vue';
-import ExpansionPanel from '~/components/ExpansionPanel.vue';
+import CvDynamicSection from '../components/CvDynamicSection.vue';
+import CvDisplayCheckbox from '../components/CvDisplayCheckbox.vue';
+import CvInputTags from '../components/CvInputTags.vue';
+import ExpansionPanel from '../components/ExpansionPanel.vue';
 import { useCvState } from '../data/useCvState';
 
 export default Vue.extend({
