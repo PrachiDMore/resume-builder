@@ -1,4 +1,4 @@
-import { Cv } from '~/types/cvfy';
+import { Cv } from '../types/cvfy';
 
 export const cvSettingTemplate: Cv = {
   jobTitle: 'Deputy Director Parks Department',

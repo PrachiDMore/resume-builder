@@ -3,7 +3,7 @@ import {
   cvSettingsEmptyTemplate,
   cvSettingTemplate,
 } from './example-cv-settings';
-import { Cv, CvEvent, defaultSkill, languagesSkill } from '~/types/cvfy';
+import { Cv, CvEvent, defaultSkill, languagesSkill } from '../types/cvfy';
 
 const state = reactive({
   formSettings: { ...cvSettingTemplate } as Cv,

@@ -283,7 +283,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import { useContext, computed } from '@nuxtjs/composition-api';
-import { CvEvent } from '~/types/cvfy';
+import { CvEvent } from '../types/cvfy';
 import { useCvState } from '../data/useCvState';
 
 export default Vue.extend({
