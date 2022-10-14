@@ -418,10 +418,6 @@ export default Vue.extend({
     watch(
       () => formSettings.value,
       (newValue, oldValue) => {
-        localStorage.setItem(
-          `cvSettings-${context.i18n.locale}`,
-          JSON.stringify(newValue)
-        );
         if (newValue.activeColor !== oldValue.activeColor) {
           const newColor = getCurrentColor(newValue.activeColor);
           changeColor(newColor.color, newColor.darker);
@@ -437,9 +433,7 @@ export default Vue.extend({
     });
 
     const availableLocales = computed(function getAvailableLocales() {
-      return context.i18n.localeCodes.filter(
-        (locale: any) => !locale.includes('-')
-      );
+      return [];
     });
 
     function downloadPdf(): void {

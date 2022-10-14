@@ -17,10 +17,7 @@ export default Vue.extend({
   components: { CvSettings, CvPreview },
   head() {
     return {
-      htmlAttrs: {
-        lang: this.$i18n.locale,
-      },
-      title: this.$t('title-tag') as string,
+      title: 'Resuminator',
       link: [
         {
           rel: 'preload',
@@ -32,12 +29,12 @@ export default Vue.extend({
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('description') as string,
+          content: 'With Resuminator you can create, preview and save your CV as PDF easily and for free! Built with Nuxt.',
         },
         {
           hid: 'author',
           name: 'author',
-          content: 'claudiabdm',
+          content: 'Mrudul Kolambe',
         },
         {
           hid: 'og:image',
@@ -47,47 +44,17 @@ export default Vue.extend({
         {
           hid: 'og:author',
           property: 'og:author',
-          content: 'Claudia Benito',
+          content: 'Mrudul Kolambe',
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.$t('title-tag') as string,
+          content: 'Resuminator',
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.$t('description') as string,
-        },
-        {
-          hid: 'twitter:creator',
-          name: 'twitter:creator',
-          content: '@claudiabdm',
-        },
-        {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: this.$t('title-tag') as string,
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: this.$t('description') as string,
-        },
-        {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-        {
-          hid: 'twitter:image',
-          name: 'twitter:image',
-          content: CVFY_IMAGE,
-        },
-        {
-          hid: 'twitter:image:alt',
-          name: 'twitter:image:alt',
-          content: this.$t('description') as string,
+          content: 'With Resuminator you can create, preview and save your CV as PDF easily and for free! Built with Nuxt.',
         },
       ],
     };
