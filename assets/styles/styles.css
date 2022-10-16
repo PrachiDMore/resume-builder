@@ -49,3 +49,10 @@
 .outline-0{
   outline: none !important;
 }
+button{
+  outline: none !important;
+}
+
+::-webkit-scrollbar{
+  width: 0 !important;
+}
